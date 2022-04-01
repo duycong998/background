@@ -1,0 +1,232 @@
+<resources>
+    <string name="app_name">background</string>
+    <string name="affinity_app" translatable="false">.affinity_app</string>
+    <string name="affinity_setting" translatable="false">.affinity_setting</string>
+
+    <string name="app_name_setting">RF AWL Lite 2 Setting</string>
+
+    <string name="act_base_services_toast_channel">AWL Lite Service Channel</string>
+    <string name="act_base_services_toast_AWL_lite_service">AWL Lite Service</string>
+
+    <string name="act_first_toast_permission_request_granted">Permission Granted</string>
+    <string name="act_first_toast_permission_request_denied">Permission Denied</string>
+    <string name="act_base_services_toast_camera_running">AWL Lite Service Camera Running… </string>
+
+    <string name="act_main_error_no_token">Configuration Required. Contact Your Admin.</string>
+    <string name="act_main_error_no_camera_id">Device Id is Required. Please set camera id.</string>
+    <string name="act_main_error_no_storage_volume">Out of external storage space. At least 500MB free space is required.</string>
+    <string name="act_main_text_wait_internet">Wait for the Internet is available…</string>
+    <string name="act_main_text_wait_external_storage">Wait for external storage is available…</string>
+    <string name="act_main_text_setting_cloud">Waiting for setup from cloud…</string>
+
+    <string name="act_settings_toolbar_title">Settings</string>
+
+    <string name="act_settings_button_general">General Settings</string>
+
+    <string name="act_usb_kitting_toolbar_title">Kitting</string>
+    <string name="act_usb_kitting_label_user_id">User ID</string>
+    <string name="act_usb_kitting_label_access_key">Access Key</string>
+    <string name="act_usb_kitting_error">Cannot read setup.txt or invalid data.</string>
+    <string name="act_usb_kitting_button_submit">Load</string>
+    <string name="act_usb_kitting_toast_loaded">Setup finished</string>
+
+    <string name="act_person_count_advanced_settings_toolbar_title">Person Count Setting</string>
+
+    <string name="act_Hand_Detection_settings_toolbar_title">Hand Detection Setting</string>
+
+    <string name="act_camera_id_settings_toolbar_title"> Select Device ID</string>
+
+
+    <string name="act_user_info_toolbar_title">Information</string>
+    <string name="act_user_info_text_debug_build">This is debug build</string>
+    <string name="act_user_info_text_user_id">User ID</string>
+    <string name="act_user_info_text_name">Name</string>
+    <string name="act_user_info_text_email">Email</string>
+    <string name="act_user_info_text_serial_number">Serial Number</string>
+    <string name="act_user_info_text_device_id">Device ID</string>
+    <string name="act_user_info_text_device_name">Device Name</string>
+    <string name="act_user_info_text_app_version_name">Application Version Name</string>
+    <string name="act_user_info_text_app_version_code">Application Version Code</string>
+
+    <string name="act_person_count_setting_toast_saved">Settings Saved</string>
+    <string name="act_person_count_setting_button_back">Back</string>
+    <string name="act_person_count_setting_button_next">Next</string>
+
+    <string name="frg_advanced_param_dialog_checkbox_auto_restart">Restart only when no face is detected</string>
+
+    <string name="frg_yes_only_dialog_button_ok">OK</string>
+
+    <string name="person_count_parameter_dialog_button_ok">OK</string>
+    <string name="person_count_parameter_dialog_button_cancel">Cancel</string>
+
+    <string name="toast_common_api_failed">Failed to load data from server. Please try again later</string>
+
+    <string name="item_multi_rect_button_save">Save</string>
+    <string name="item_multi_rect_button_delete">Delete</string>
+    <string name="item_multi_rect_button_next">Next</string>
+    <string name="item_multi_rect_button_back">Back</string>
+    <string name="item_multi_rect_button_cancel">Cancel</string>
+    <string name="item_multi_rect_param_min_object_size_title">Minimum Object Size</string>
+    <string name="item_multi_rect_param_min_object_size_description">Sets the smallest desired object size, expressed as a proportion of the width of the head to the image width (0.0~1.0)</string>
+    <string name="item_multi_rect_param_min_detection_time_title">Detection Time</string>
+    <string name="item_multi_rect_param_min_detection_time_description">Sets detection time at each regions [ms]</string>
+
+    <string name="pref_advanced_max_track_lose_count_description">Maximum frames to keep the bounding box after the tracking is lost</string>
+    <string name="pref_advanced_dist_weight_x_description">Weight of X-axis Euclidean distance between centroids.\ndistance = sqrt(pow(x_distance, 2)*weight_x + pow(y_distance, 2)*weight_y)</string>
+    <string name="pref_advanced_dist_weight_y_description">Weight of Y-axis Euclidean distance between centroids.\ndistance = sqrt(pow(x_distance, 2)*weight_x + pow(y_distance, 2)*weight_y)</string>
+    <string name="pref_advanced_auto_restart_description">Time in mins to restart the main application. Do not restart if set to 0</string>
+    <string name="pref_advanced_max_track_distance_person_count_description">Max distance considered as the same bounding box [px]</string>
+    <string name="pref_advanced_target_fps_person_count">Target FPS for Person Count</string>
+    <string name="pref_advanced_max_high_priority_task_at_frame_person_count">Maximum number of high priority tasks processed in a single frame</string>
+    <string name="pref_advanced_head_direction_threshold_roll_person_count">Threshold of roll angle to allow AGM and  vectorization</string>
+    <string name="pref_advanced_head_direction_threshold_pitch_person_count">Threshold of pitch angle to allow AGM and vectorization</string>
+    <string name="pref_advanced_head_direction_threshold_yaw_person_count">Threshold of yaw angle to allow AGM and vectorization</string>
+    <string name="pref_advanced_head_direction_watch_time_threshold_roll_person_count">Threshold of roll angle for calculating watching time</string>
+    <string name="pref_advanced_head_direction_watch_time_threshold_pitch_person_count">Threshold of pitch angle for calculating watching time</string>
+    <string name="pref_advanced_head_direction_watch_time_threshold_yaw_person_count">Threshold of yaw angle for calculating watching time</string>
+    <string name="act_settings_setup_test">Input settings</string>
+    <string name="act_setting_extension_person_count">Person Count</string>
+    <string name="act_setting_extension_spray">Hand Detection</string>
+    <string name="act_setting_test_setup_path_video">Path video</string>
+    <string name="act_setting_test_setup_camera">Camera</string>
+    <string name="act_setting_test_setup_video_mp4">Video (MP4 format)</string>
+    <string name="act_setting_test_setup_change">Change</string>
+    <string name="act_settings_select_extension">Select extension</string>
+    <string name="general_back">Back</string>
+    <string name="general_next">Next</string>
+
+    <string name="general_save">Save</string>
+
+
+    <string name="options_sanitiser_setting_hand_s_parameters">Setting Hand \'s Parameters</string>
+    <string name="options_sanitiser_minimun_area_to_detect">Minimum area to detect</string>
+    <string name="options_sanitiser_timer_to_detect">Timer to detect</string>
+    <string name="options_sanitiser_the_drop_threshold">The drop threshold</string>
+    <string name="options_sanitiser_number0" translatable="false">0</string>
+    <string name="frag_options_sanitiser_cancel">Cancel</string>
+
+    <string name="device_id">Device Id:</string>
+    <string name="notify_url">Server API:</string>
+    <string name="pref_advanced_hand_stay_time">Minimum time (in seconds) of the detected hand in the box</string>
+    <string name="pref_advanced_hand_min_size">Ratio of the detected hand with the detect area</string>
+    <string name="pref_advanced_hand_max_track_count">Number of frame losing when detecting hand to keep tracking.</string>
+    <string name="pref_advanced_hand_min_threshold">Minimum value of the hand detection threshold.</string>
+    <string name="item_multi_rect_param_max_object_size_title">Maximum Object Size</string>
+    <string name="item_multi_rect_param_max_object_size_description">Sets the largest desired object size, expressed as a proportion of the width of the head to the image width (0.0~1.0)</string>
+    <string name="item_noise_reduction_title">Maximum noise allowed for  Kalman Tracking calculations</string>
+
+    <string name="pref_advanced_auto_reboot_description">Restart device if the Network is unstable for more than the indicated minutes. Do not restart if set to 0</string>
+    <string name="pref_advanced_detection_model_threshold_description">[For Person Count Only] Threshold value for head detection</string>
+
+    <string name="pref_advanced_screen_recording_time">Time for screen recording in minutes</string>
+    <string name="pref_screen_record_type">Type of data to collect</string>
+
+    <string name="general_setting_camera_resolution">Specify the resolution of the captured video</string>
+    <string name="select_screen_orientation">Select angle for screen rotation </string>
+    <string name="general_setting_save_the_counted_faces_in_encrypted_files">Save the counted faces in encrypted files. One file for each Face ID.</string>
+    <string name="gereral_setting_device_move_detection_threshold">Device movement detection threshold</string>
+    <string name="general_setting_camera_re_log">Enable local logger to save all the actions of the app.</string>
+    <string name="general_setting_use_pass_word">Enable password protection</string>
+    <string name="general_setting_time_for_saving_face_images_in_minutes">Time for saving face images in minutes. The images will be saved from starting only for the indicated minutes. One file will be saved for every face at every frame, with a limitation to 150000 files.</string>
+    <string name="advance_setting_use_face_vectorization">Enable Face Vectorization</string>
+    <string name="advance_setting_use_age_gender_mask_estimation">Enable gender/age/mask estimation</string>
+    <string name="advance_setting_wait_time_use_age_gender_mask">Select wait time[ms] use for estimation models</string>
+
+    <string name="btn_Done">DONE</string>
+    <string name="btn_Back">BACK</string>
+
+    <string name="frg_field_order_toolbar">Field Order Setting</string>
+    <string name="frg_field_order_btn_add">Add</string>
+    <string name="frg_field_order_btn_delete">Delete</string>
+    <string name="numberRoi">empty</string>
+    <string name="frg_field_order_dialog_error">Please input number of ROI</string>
+
+    <string name="act_base_services_toast_no_camera">No camera found! Please check again</string>
+    <string name="person_count_setting_with_camera">Person Count Setting with Camera</string>
+    <string name="person_count_setting_with_video">Person Count Setting with Video</string>
+    <string name="hand_detection_with_camera">Hand Detection with Camera</string>
+    <string name="hand_detection_with_video">Hand Detection with Video</string>
+
+    <string name="off">Off</string>
+    <string name="on">On</string>
+    <string name="act_base_services_toast_no_mp4">MP4 file not found! Please goes to Setting to pick up an Mp4 file!</string>
+    <string name="dialog_message_updated_successfully" translatable="false">Update Successful</string>
+    <string name="act_person_count_device_angle_button_overlay">ANGLE:</string>
+    <string name="act_fov_setting_no_fov_is_saved">No FOV is Saved</string>
+    <string name="save_successfully">Save Successfully!</string>
+    <string name="initial_value">Initial Value: </string>
+    <string name="on_off">ON/OFF</string>
+    <string name="off_on">OFF/ON</string>
+    <string name="failed_to_get_setting_from_cloud">Failed to get Setting from Cloud </string>
+    <string name="device_in_standby_mode_cannot_open_AWL_Lite_manual_please_check_in_server">Device in Standby mode. Cannot open AWL Lite manual, Please check in server</string>
+    <string name="failed_to_update_to_server">Failed to update to Server: </string>
+    <string name="updated_to_server">Updated to server!</string>
+    <string name="ok">OK</string>
+    <string-array name="region_order">
+        <item>ASCENDING</item>
+        <item>PASS</item>
+        <item>DESCENDING</item>
+    </string-array>
+    <string name="frg_field_order_dialog_error_same_field">The input value overlaps with the previous values. Please input again.</string>
+    <string name="frg_field_order_dialog_error_same_number">Do not input 2 same numbers. Please input again.</string>
+    <string name="annotation_overlayed_video"> Videos with Annotation </string>
+    <string name="unannotated_video_annotation_file"> Unannotated Videos + Annotation files</string>
+    <string name="request_permission">Request permission</string>
+    <string name="you_have_to_give_the_camera_permission_and_memory_to_use_the_app">You have to give the camera permission and memory to use the app</string>
+    <string name="yes_go_to_setting">Yes, Go to setting</string>
+    <string name="dialog_input_password">Input your password</string>
+    <string name="dialog_password">Please enter your password</string>
+    <string name="act_load_import_xml_advance_setting">Import</string>
+    <string name="act_change_import_xml_advance_setting">CHANGE</string>
+    <string name="act_import_title_import_xml_advance_setting">Import settings</string>
+    <string name="select_multiple_folders_to_decode_face_images">Select multiple folders to decode face images</string>
+    <string name="no_exits_folder_encrypted">No exits folder encrypted</string>
+    <string name="decrypt_face_images">Decrypt face images</string>
+    <string name="file_completed">file completed</string>
+    <string name="operating_hours">Operating Hours</string>
+    <string name="all">ALL</string>
+    <string name="app_version_24_or_height_is_required_to_use_this_feature">App version 24 or higher is required to use this feature.</string>
+    <string name="update">Update</string>
+    <string name="update_operating_hours_failed">Update operating hours failed</string>
+    <string name="cpu_usage">CPU usage</string>
+    <string name="internet">Internet</string>
+    <string name="network">Network</string>
+    <string name="connected">Connected</string>
+    <string name="no_connect">No connect</string>
+    <string name="memory_usage">Memory usage</string>
+    <string name="input_size">Input size</string>
+    <string name="streaming">Streaming</string>
+    <string name="type">Type</string>
+    <string name="status">Status</string>
+    <string name="quality">Quality</string>
+    <string name="version_info">Version info</string>
+    <string name="no_support_on_device">No support on device</string>
+    <string name="item_face_width_detection_threshold">Width threshold for detected faces</string>
+    <string name="pref_advanced_minimum_iou_track_matching">Minimum IoU threshold required for matching detection and tracking</string>
+    <string name="enable_show_system_info">Enable the display of information in the main screen</string>
+    <string name="act_standby_mode" translatable="false">StandBy Mode</string>
+    <string name="perfect">Perfect</string>
+    <string name="good">Good</string>
+    <string name="normal">Normal</string>
+    <string name="weak">Weak</string>
+
+    <string name="act_main_download">Waiting for download model…</string>
+    <string name="error_download_failure">Download model failure</string>
+    <string name="no_internet">No internet</string>
+    <string name="no_signal">No signal</string>
+    <string name="internet_available">Internet available</string>
+    <string name="device_status_inactive">Device inactive</string>
+    <string name="device_status_initialized">Device initialized</string>
+    <string name="error_device_id_not_exists">Device not found in system</string>
+    <string name="text_kitting_progress">Kitting progress …</string>
+    <string name="error_initialize_device">Initialize Device failure</string>
+    <string name="text_update_model_success">Update model success</string>
+    <string name="text_update_model_failure">Update model failure</string>
+    <string name="error_download_model_failure">Download model failure</string>
+    <string name="text_start_check_download_model">Start check and download model(%d/%d) ....</string>
+    <string name="error_auth_firebase_failure">Firebase Auth Failure</string>
+    <string name="text_firebase_auth_success">Firebase Auth success</string>
+    <string name="text_firebase_auth_expired">Firebase Auth expired</string>
+    <string name="text_start_check_download_apk">Start check and download apk …</string>
+    <string name="error_form_catch">%s. Please check and retry again</string>
+</resources>
